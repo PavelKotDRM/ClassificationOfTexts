@@ -1,0 +1,37 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+sympy = "*"
+pandas = "*"
+plotly = "*"
+matplotlib = "*"
+lxml = "*"
+beautifulsoup4 = "*"
+jupyterlab = "*"
+scikit-learn = "*"
+openpyxl = "*"
+cython = "*"
+ipywidgets = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+torchtext = "*"
+graphviz = "*"
+fastai = "*"
+sentencepiece = "*"
+nbdev = "*"
+psycopg2-binary = "*"
+xlrd = "*"
+spacy = {extras = ["cuda12x"] }
+regex = "*"
+polars = {extras = ["all"] }
+transformers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
