@@ -1,0 +1,40 @@
+[project]
+name = "classification-of-texts"
+version = "0.1.0"
+description = "Text Classification Project"
+requires-python = "~=3.11.0"
+dependencies = [
+    "numpy",
+    "sympy",
+    "pandas",
+    "plotly",
+    "matplotlib",
+    "lxml",
+    "beautifulsoup4",
+    "jupyterlab",
+    "scikit-learn",
+    "openpyxl",
+    "cython",
+    "ipywidgets",
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "torchtext",
+    "graphviz",
+    "fastai",
+    "sentencepiece",
+    "nbdev",
+    "psycopg2-binary",
+    "xlrd",
+    "spacy[cuda12x]",
+    "regex",
+    "polars[all]",
+    "transformers",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
